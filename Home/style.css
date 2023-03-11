@@ -1,0 +1,62 @@
+body header {
+  box-shadow: 0px 1px 25px rgb(255, 255, 255);
+}
+body header ul {
+  text-align: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-left: 100px;
+  font-size: 27px;
+}
+body header ul a {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: blue;
+  font-weight: bold;
+}
+body header ul a:hover {
+  border-bottom: solid red;
+}
+
+.section1 .d-flex .h {
+  margin-top: 60px;
+}
+
+.section2 {
+  background-color: rgb(119, 119, 255);
+}
+.section2 .d-flex {
+  margin-top: 30px;
+}
+.section2 .first {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 15px;
+}
+.section2 .second {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.section2 .theerd {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.section3 {
+  color: blue;
+}
+
+.foter .icons {
+  margin-left: 600px;
+  gap: 100px;
+  margin-top: 50px;
+}
+.foter .icons i {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+nav li {
+    position: relative;
+    width: 1113px;
+    height: 107px;
+    left: 78%;
+    top: 25px;
+    gap: 150px;
+    display: inline;
+    justify-content: space-between;
+}
+
+nav img{
+    margin-left: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Section1 */
+
+.section1 img {
+    margin-left: 50px;
+    height: 500px;
+}
+
+.section1 h1 {
+    color: red;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    bottom: 350px;
+}
+
+.section1 p {
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    left: 750px;
+    bottom: 50px;
+}
+
+.section1 a {
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    bottom: 5px;
+}
+
+/* Section 2 */
+.section2 {
+    height: 500px;
+}
+
+.section2 img {
+    margin-top: 50px;
+    margin-left: 600px;
+    height: 500px;
+}
+
+.section2 h1,
+p,
+a {
+    margin-left: 50px;
+    position: relative;
+    bottom: 500px;
+}
+
+.section2 h1 {
+    color: red;
+}
+
+.section2 p {
+    font-size: 18px;
+}
+
+/* Section 3 */
+
+
+.section3 img {
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 500px;
+}
+
+.section3 h1 {
+    color: red;
+    display: inline-block;
+    position: absolute;
+    left: 850px;
+    top: 1300px;
+}
+
+.section3 p {
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 1350px;
+}
+
+.section3 a {
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 1700px;
+}

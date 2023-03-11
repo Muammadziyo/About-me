@@ -1,0 +1,17 @@
+.mahsulotlar{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+}
+
+h1{
+    color: gold;
+}
+
+.a1{
+    background-color: red;
+    width: 1300px;
+    height: 5px;
+    position: relative;
+    left: 110px;
+}

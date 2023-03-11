@@ -1,0 +1,29 @@
+header {
+  box-shadow: 0px 1px 25px rgb(255, 255, 255);
+}
+header ul {
+  text-align: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-left: 100px;
+  font-size: 27px;
+}
+header ul a {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: blue;
+  font-weight: bold;
+}
+header ul a:hover {
+  border-bottom: solid red;
+}
+
+.foter .icons {
+  margin-left: 600px;
+  gap: 100px;
+  margin-top: 50px;
+}
+.foter .icons i {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

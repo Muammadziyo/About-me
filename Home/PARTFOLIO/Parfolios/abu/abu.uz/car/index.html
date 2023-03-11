@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avtosalon</title>
+
+  <!-- Css link -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Saytni icon -->
+  <link rel="shortcut icon" href="./icons/apple.png" type="image/x-icon">
+
+  <!-- Google Fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Top-navbar -->
+  <div class="top-navbar">
+    <p>Bizning avtosalonimizga xush kelibsiz!</p>
+    <div class="icons">
+      <a href=""><img src="./icons/enter.png" alt="login" width="18px">Kirish</a>
+      <a href="#"><img src="./icons/enter.png" alt="register" width="18px">Ro'yxatdan o'tish</a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"> Avto<span>salon</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Bosh Sahifa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mashina</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kategoriya
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(3 57 2);">
+              <li><a class="dropdown-item" href="https://www.kia.com">Kia</a></li>
+              <li><a class="dropdown-item" href="https://www.`bmw.com">BMW</a></li>
+              <li><a class="dropdown-item" href="https://www.audi.com">Audi</a></li>
+              <li><a class="dropdown-item" href="https://www.toyota.com">Toyota</a></li>
+              <li><a class="dropdown-item" href="https://www.mercedes-benz.com/">Mercedes-Benz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Haqida</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Aloqa</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Mahsulotni kiriting..." aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Qidirish</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+
+  <!-- Home content  -->
+  <section class="home">
+    <div class="content">
+      <h1><span>Avto mashinalar</span>
+      <br>
+      <span id="span2">10%</span> chegirmada</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <br>Provident magni nobis dicta, illo iure velit voluptatem fugiat iste, facere a, voluptas nesciunt dolor reiciendis!<br>
+      Deserunt molestiae rerum ea maxime laborum?</p>
+      <div class="btn"><button>Xarid qilish</button></div>
+    </div>
+
+    <div class="img">
+      <img src="./rasmlar//logo.jpg" alt="asosiy">
+    </div>
+  </section>
+  <!-- Home content end -->
+
+
+  <!-- Mahsulot 1 -->
+  <div class="container" id="mahsulot1">
+    <h1 class="text-center">Katalog</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./rasmlar/mers.webp" alt="mers">
+          <div class="card-body">
+            <h3 class="text-center">Mercedes-Benz EQS 450+</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$125.950 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 2 -->
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./rasmlar/kia.jpg" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">Kia k8</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$34.400 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 3 -->
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./rasmlar/bmw1.png" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">BMW I8</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$147.500<img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 4 -->
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./rasmlar/15305_st0640_116.png" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">Cadillac Escalade</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$91.095 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+        <!-- Mahsulot 5 -->
+      <div class="col-md-3 py-3 py-md-5">
+        <div class="card">
+          <img src="./rasmlar/png.png" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">Rolls Royce ghost</h3> 
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$400.000 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 6 -->
+      <div class="col-md-3 py-3 py-md-5">
+        <div class="card">
+          <img src="./rasmlar/urus.png" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">Lambarghini Urus</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$238,216 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 7 -->
+      <div class="col-md-3 py-3 py-md-5">
+        <div class="card">
+          <img src="./rasmlar/f8.png" alt="iphone14" style="height: 252px;">
+          <div class="card-body">
+            <h3 class="text-center">Ferrari F8</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$324.342<img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mahsulot 8 -->
+      <div class="col-md-3 py-3 py-md-5">
+        <div class="card">
+          <img src="./rasmlar/gelik.webp" alt="iphone14" style="height: 220px;">
+          <div class="card-body">
+            <h3 class="text-center">Mercedes-Benz AMG G-class</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>$179.900 <img src="./rasmlar/cart.png" alt="karzinka" width="35px" height="35px"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- Mercedes-Benz -->
+     
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
